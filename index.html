@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style type="text/css">
+    	.btn_remove{
+    		display: block;
+			padding: auto;
+    	}
+
+        body{
+        	  background-color: #e9f2eb;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+    <h1 > Todo List</h1><br>
+
+    	<div class="row"><br>
+    		<div class="col-md-8">
+    			<input type="text" name="" id="Text_input" class="form-control">
+    		 </div>
+    		 <div class="col-md-auto">
+    			<a href=""class="btn btn-success btn" onclick="addEvent()" >Add Task</a>
+    		 </div>
+    		 <div class="col-md-auto">
+    		 	<a href=""class="btn btn-secondary btn"  onclick="resetAll()" >Reset List</a>
+    		 </div>
+    	</div>
+    	<br>
+    	<div class="row"><br>
+    		<div class="col-md-8">
+    		<ul class="list-group list-group-flush" id="tasks" >
+  
+    		</ul>
+    	</div>
+    	</div>	
+    	
+
+    </div>
+    <script src="main.js" charset="utf-8"></script>
+</body>
+</html>
